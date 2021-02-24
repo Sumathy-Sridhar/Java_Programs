@@ -1,5 +1,4 @@
 package com.src.javafullstack4;
-
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Scanner;
@@ -23,7 +22,6 @@ class Customer{
 	}
 	
 }
-
 public class CutomerSort {
 	static void sortData(ArrayList al)
 	{

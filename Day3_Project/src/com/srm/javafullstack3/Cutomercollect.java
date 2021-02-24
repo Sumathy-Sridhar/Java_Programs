@@ -4,11 +4,11 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Scanner;
 
-class customerdata{
+class customerdatasort{
 	private String customername;
     private int cusid;
     
-    public  customerdata(int cusid, String customername) {
+    public  customerdatasort(int cusid, String customername) {
         this. cusid =  cusid;
         this.customername = customername;
        }
@@ -40,7 +40,7 @@ public class Cutomercollect {
 		for (int i=0;i<n;i++) {
 			cusid=sc.nextInt();
 			customername=sc.next();
-			arraylist.add(new customerdata(cusid,customername));
+			arraylist.add(new customerdatasort(cusid,customername));
 		}
 		System.out.println(arraylist.toString());
 		sortData(arraylist);
